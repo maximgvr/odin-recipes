@@ -1,0 +1,8 @@
+For recipe page: 
+- <img> image of dish under h1
+- <p> description header under image 
+- <p> paragraph under describing the recipe 
+- <ul> ingredients 
+- <ol> steps to make dish
+
+-> add two more recipes - same structure
