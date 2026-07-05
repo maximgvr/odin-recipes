@@ -5,15 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Biryani</title>
     <link rel="stylesheet" href="/styles/general.css" />
-    <link rel="stylesheet" href="/styles/biryani.css" />
+    <link rel="stylesheet" href="/styles/recipe.css" />
   </head>
   <body>
+    <header class="header">
+      <nav class="left">
+        <a class="homepage-link" href="/index.html">Home</a>
+      </nav>
+
+      <h1 class="center">
+        Biryani <span class="header-translation">बिरयानी</span>
+      </h1>
+
+      <nav class="right">
+        <a class="ingredients-link" href="#ingredients">Ingredients</a>
+        <a class="steps-link" href="#steps">Steps</a>
+      </nav>
+    </header>
+
     <main>
-      <div class="recipe">
-        <nav class="navbar">
-          <a class="homepage-link" href="/index.html">Home</a>
-          <h1 class="header">Biryani <span class="header-translation">बिरयानी</span></h1>
-        </nav>
+      <article class="recipe">
+        <section class="description">
+          <div class="header-row">
+            <img class="header-icon" src="/icons/info-icon.svg" />
+            <h2 class="description-header">Description</h2>
+          </div>
+          <p class="description-text">
+            Biryani is a spiced rice dish made with basmati rice, marinated
+            meat, and aromatic spices. It is cooked using a layering method
+            where rice and meat are combined and slowly steamed together. This
+            gives the dish its strong aroma and rich, deep flavor.
+          </p>
+          <p class="description-text-2">
+            The dish is commonly served with yogurt raita, salad, or a spicy
+            curry. While there are many regional variations, chicken biryani
+            remains one of the most popular rice dishes around the world.
+          </p>
+        </section>
         <div class="image-row">
           <img
             class="biryani-image"
@@ -21,12 +49,84 @@
             alt="picture_of_biryani"
           />
         </div>
-        <div class="description">
-          <h2 class="desciption-header">Description</h2>
-          <p class="description-text">Biryani is a spiced rice dish made with basmati rice, marinated meat, and aromatic spices. It is cooked using a layering method where rice and meat are combined and slowly steamed together. This gives the dish its strong aroma and rich, deep flavor.</p>
-        </div>
 
-      </div>
+
+        <section>
+          <h2 class="ingredients-header" id="ingredients">Ingredients</h2>
+          <ul class="ingredients-list">
+            <li>400 g chicken, cut into pieces</li>
+            <li>2 cups basmati rice</li>
+            <li>1 large onion, sliced</li>
+            <li>2 tomatoes, chopped</li>
+            <li>3 cloves garlic, minced</li>
+            <li>1 tablespoon ginger, grated</li>
+            <li>1 cup yogurt</li>
+            <li>2 tablespoons oil or ghee</li>
+            <li>1 teaspoon cumin seeds</li>
+            <li>1 bay leaf</li>
+            <li>3–4 cardamom pods</li>
+            <li>3 cloves</li>
+            <li>1 cinnamon stick</li>
+            <li>1 teaspoon turmeric</li>
+            <li>1 teaspoon chili powder</li>
+            <li>1 teaspoon garam masala</li>
+            <li>Salt to taste</li>
+            <li>Fresh cilantro and mint</li>
+            <li>Saffron milk (optional)</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2 class="steps-header" id="steps">Steps</h2>
+          <ol class="steps-list">
+            <li>
+              Wash the basmati rice and soak it in water for about 30 minutes.
+            </li>
+            <li>
+              Marinate the chicken with yogurt, garlic, ginger, turmeric, chili
+              powder, and salt. Let it rest for at least 30 minutes.
+            </li>
+            <li>Cook the rice until it is about 70% done, then drain it.</li>
+            <li>
+              Heat oil or ghee in a large pot and fry the sliced onions until
+              golden brown.
+            </li>
+            <li>
+              Add the whole spices, then stir in the tomatoes and cook until
+              softened.
+            </li>
+            <li>
+              Add the marinated chicken and cook until the chicken is nearly
+              done.
+            </li>
+            <li>
+              Sprinkle in the coriander, cumin, and garam masala, mixing
+              everything well.
+            </li>
+            <li>Layer the partially cooked rice over the chicken mixture.</li>
+            <li>Add chopped cilantro, mint, and saffron milk if using.</li>
+            <li>
+              Cover the pot tightly and cook on low heat for 20–25 minutes until
+              fully cooked.
+            </li>
+            <li>Gently fluff the biryani before serving.</li>
+            <li>Serve hot with raita or salad.</li>
+          </ol>
+        </section>
+
+        <section class="video-section">
+          <h2 class="video-header">Feeling stuck ?</h2>
+          <iframe
+            src="https://www.youtube.com/embed/6XlMguO9r-M"
+            frameborder="0"
+            width="360"
+            height="180"
+          ></iframe>
+        </section>
+      </article>
     </main>
+    <footer class="footer">
+      <p>&copy; 2026 Govor Systems</p>
+    </footer>
   </body>
 </html>

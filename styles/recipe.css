@@ -1,0 +1,133 @@
+body {
+  background: rgb(46, 30, 0);
+  padding-top: 80px;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 0.8rem;
+  }
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.recipe {
+  width: 100%;
+  max-width: 1000px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.header {
+  background-color: rgb(24, 14, 1);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  box-shadow: inset 0 0 1px rgba(255, 255, 255, 0.5);
+  padding: 5px 15px;
+}
+
+.center {
+  font-size: 1.8rem;
+}
+
+.header a {
+  color: #eeeeee;
+  font-size: 1rem;
+}
+
+.ingredients-link {
+  margin-right: 10px;
+}
+
+.image-row {
+  width: 100%;
+  max-width: 1000px;
+}
+
+.biryani-image {
+  width: 100%;
+  height: auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+}
+
+.header-translation {
+  font-size: 0.8rem;
+}
+
+.description {  
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  background-color: rgb(51, 25, 4);
+  border-radius: 5px;
+  margin-bottom: 40px;
+}
+
+.header-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+
+.header-icon {
+  width: 20px;
+}
+
+.description-text {
+  margin-bottom: 15px;
+}
+
+.ingredients-header {
+  margin-top: 40px;
+  margin-bottom: 5px;
+  scroll-margin-top: 90px;
+}
+
+.ingredients-list {
+  list-style-type: "- ";
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+.steps-header {
+  margin-top: 40px;
+  margin-bottom: 5px;
+  scroll-margin-top: 90px;
+}
+
+.video-header {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  padding: 20px 0px 15px 0px;
+  color: #adadad;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin-left: 40px;
+  margin-right: 40px;
+}
